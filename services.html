@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the services offered by PetPrints Animal Rescue - rescue, rehabilitation, rehoming, fostering and community education.">
+    <meta name="keywords" content="animal rescue services, rehabilitation, adoption, foster care, PetPrints">
+    <title>Services | PetPrints Animal Rescue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo-area">
+                <h1>PetPrints Animal Rescue</h1>
+                <p>Rescuing. Rehabilitating. Rehoming.</p>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰ Menu</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="content-block">
+                <h2>Our Services</h2>
+                <p>
+                    At PetPrints, we provide a full range of services focused on giving 
+                    animals in crisis the care and second chances they deserve.
+                </p>
+                <!-- Simple search for interactive filtering -->
+                <p>
+                    <label for="serviceSearch"><strong>Quick search services:</strong></label>
+                    <input type="text" id="serviceSearch" placeholder="Type to filter (e.g. foster, medical, education)..." style="max-width:400px; margin-top:0.5rem;">
+                </p>
+            </section>
+
+            <!-- Accordion for interactive content (Part 3 requirement) -->
+            <section class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Animal Rescue <span>+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            We respond to reports of abandoned, injured, or abused animals. 
+                            Our team works with the public, local authorities, and other organisations 
+                            to safely remove animals from dangerous or neglectful situations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Rehabilitation & Medical Care <span>+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Many of the animals we rescue arrive in poor condition. We provide:</p>
+                        <ul>
+                            <li>Veterinary treatment and surgery</li>
+                            <li>Vaccinations and deworming</li>
+                            <li>Spay and neuter programmes</li>
+                            <li>Nutritional support and recovery care</li>
+                            <li>Behavioural rehabilitation where needed</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Rehoming & Adoption <span>+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Our ultimate goal is to place every animal into a safe, loving forever home. 
+                            We carefully screen potential adopters to ensure the best possible match 
+                            for both the animal and the family.
+                        </p>
+                        <p><a href="enquiry.html" class="btn btn-primary">Interested in adopting?</a></p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Foster Care Network <span>+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Foster homes play a vital role in our work. By providing temporary care, 
+                            foster families free up space at the shelter and give animals a chance 
+                            to recover in a home environment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        Community Education <span>+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>We believe prevention is just as important as rescue. We run educational talks and campaigns focused on:</p>
+                        <ul>
+                            <li>Responsible pet ownership</li>
+                            <li>The importance of sterilisation</li>
+                            <li>Recognising and reporting animal abuse</li>
+                            <li>How the public can support local rescues</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="get-involved" class="content-block text-center">
+                <h2>Get Involved</h2>
+                <p>
+                    There are many ways to support our work. Whether you want to adopt, 
+                    volunteer, foster, or sponsor an animal, we would love to hear from you.
+                </p>
+                <a href="enquiry.html" class="btn btn-primary">Make an Enquiry</a>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PetPrints Animal Rescue. All rights reserved.</p>
+        <p>Non-Profit Organisation | Making a difference, one paw at a time.</p>
+        <p>
+            <a href="contact.html">Contact Us</a> |
+            <a href="enquiry.html">Make an Enquiry</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

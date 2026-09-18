@@ -1,0 +1,8 @@
+# robots.txt for PetPrints Animal Rescue
+# Allows all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://your-username.github.io/petprints/sitemap.xml

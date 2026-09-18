@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enquire about adopting, volunteering, fostering or sponsoring with PetPrints Animal Rescue. Complete our online form today.">
+    <meta name="keywords" content="adopt animal, volunteer, sponsor, foster, PetPrints enquiry">
+    <title>Enquiry | PetPrints Animal Rescue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="logo-area">
+                <h1>PetPrints Animal Rescue</h1>
+                <p>Rescuing. Rehabilitating. Rehoming.</p>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰ Menu</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="content-block">
+                <h2>Make an Enquiry</h2>
+                <p>
+                    We would love to hear from you. Please complete the form below if you are interested 
+                    in adopting an animal, becoming a volunteer, fostering, or supporting us as a sponsor.
+                </p>
+            </section>
+
+            <!-- Enquiry Form -->
+            <section id="enquiry-form">
+                <form id="enquiryForm" action="#" method="post" novalidate>
+
+                    <div class="success-message" role="alert"></div>
+
+                    <!-- Personal Details -->
+                    <fieldset>
+                        <legend>Your Details</legend>
+
+                        <p>
+                            <label for="full-name">Full Name: <span class="required">*</span></label>
+                            <input type="text" id="full-name" name="full_name" required placeholder="Enter your full name" autocomplete="name">
+                        </p>
+
+                        <p>
+                            <label for="email">Email Address: <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="example@email.com" autocomplete="email">
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g. 082 123 4567" autocomplete="tel">
+                        </p>
+                    </fieldset>
+
+                    <!-- Type of Enquiry -->
+                    <fieldset>
+                        <legend>Type of Enquiry <span class="required">*</span></legend>
+                        <p>Please select the option that best describes your enquiry:</p>
+
+                        <div class="radio-group">
+                            <p>
+                                <input type="radio" id="adopt" name="enquiry_type" value="adoption" required>
+                                <label for="adopt">I want to adopt an animal</label>
+                            </p>
+                            <p>
+                                <input type="radio" id="volunteer" name="enquiry_type" value="volunteer">
+                                <label for="volunteer">I want to become a volunteer</label>
+                            </p>
+                            <p>
+                                <input type="radio" id="sponsor" name="enquiry_type" value="sponsor">
+                                <label for="sponsor">I want to become a sponsor / make a donation</label>
+                            </p>
+                            <p>
+                                <input type="radio" id="foster" name="enquiry_type" value="foster">
+                                <label for="foster">I am interested in fostering</label>
+                            </p>
+                            <p>
+                                <input type="radio" id="other" name="enquiry_type" value="other">
+                                <label for="other">Other enquiry</label>
+                            </p>
+                        </div>
+                    </fieldset>
+
+                    <!-- Additional Information -->
+                    <fieldset>
+                        <legend>Additional Information</legend>
+
+                        <p>
+                            <label for="message">Your Message / Questions:</label>
+                            <textarea id="message" name="message" rows="6" 
+                                placeholder="Please tell us more about your enquiry (preferred animal type, experience, availability, etc.)"></textarea>
+                        </p>
+
+                        <p>
+                            <label for="preferred-contact">Preferred Contact Method:</label>
+                            <select id="preferred-contact" name="preferred_contact">
+                                <option value="email">Email</option>
+                                <option value="phone">Phone Call</option>
+                                <option value="whatsapp">WhatsApp</option>
+                            </select>
+                        </p>
+                    </fieldset>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit Enquiry</button>
+                        <button type="reset">Clear Form</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="content-block mt-2">
+                <h2>What Happens Next?</h2>
+                <p>
+                    Once we receive your enquiry, a member of our team will respond within 
+                    2–3 working days. For adoption enquiries, we may ask you to complete 
+                    a more detailed application form.
+                </p>
+                <p>
+                    Thank you for considering supporting PetPrints. Together we can 
+                    give more animals the second chance they deserve.
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PetPrints Animal Rescue. All rights reserved.</p>
+        <p>Non-Profit Organisation | Making a difference, one paw at a time.</p>
+        <p>
+            <a href="contact.html">Contact Us</a> |
+            <a href="enquiry.html">Make an Enquiry</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
